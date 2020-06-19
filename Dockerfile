@@ -4,7 +4,7 @@ FROM hasura/graphql-engine:v1.3.0-beta.2
 ENV HASURA_GRAPHQL_ENABLE_CONSOLE=true
 
 # Enable dev mode
-ENV HASURA_GRAPHQL_DEV_MODE=true"\
+ENV HASURA_GRAPHQL_DEV_MODE=true
 
 # Change $DATABASE_URL to your heroku postgres URL if you're not using
 # the primary postgres instance in your app
